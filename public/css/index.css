@@ -1,0 +1,13 @@
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            padding: 0.2rem 0.6rem;
+        }
+
+        .dataTables_filter input {
+            border-radius: 8px;
+            padding: 5px 10px;
+        }
+
+        #applyFilters,
+        #resetFilters {
+            padding: 4px 10px;
+        }

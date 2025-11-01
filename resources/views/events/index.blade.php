@@ -1,21 +1,7 @@
 @extends('layout.index')
 
 @section('content')
-    <style>
-        .dataTables_wrapper .dataTables_paginate .paginate_button {
-            padding: 0.2rem 0.6rem;
-        }
-
-        .dataTables_filter input {
-            border-radius: 8px;
-            padding: 5px 10px;
-        }
-
-        #applyFilters,
-        #resetFilters {
-            padding: 4px 10px;
-        }
-    </style>
+   
 
     <div class="d-flex justify-content-between align-items-center mb-3">
         <h2 class="mb-0">Upcoming Sports Events</h2>
