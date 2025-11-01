@@ -23,6 +23,7 @@ It provides secure and scalable APIs for managing **sports events**, including c
 ##  Installation Guide
 
 ### 📦 Please follow these steps to install and run the project
+Ensure you have an active internet connection — some files are loaded from CDN.
 
 ```bash
 # 1. Clone the repository
@@ -33,9 +34,7 @@ cd sportradar_BE
 
 # 3. Install PHP dependencies
 composer install
-
-# 4. Install JavaScript dependencies
-npm install
+ 
 
 # 5. Copy the example environment file
 cp .env.example .env
