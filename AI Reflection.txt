@@ -1,0 +1,2 @@
+I used ChatGPT to get help with writing the initial DataTable JavaScript logic, formatting the README file, and structuring the API routes.
+The AI suggestions were adapted and tested manually before inclusion.
