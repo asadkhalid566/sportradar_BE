@@ -39,22 +39,22 @@ composer install
 # 4. Copy the example environment file
 cp .env.example .env
 
-# 6. Set your database name and credentials in the .env file
+# 5. Set your database name and credentials in the .env file
 # Example:
 # DB_DATABASE=sportradar_db
 # DB_USERNAME=root
 # DB_PASSWORD=
 
-# 5. Generate application key
+# 6. Generate application key
 php artisan key:generate
 
-# 6. Run database migrations
+# 7. Run database migrations
 php artisan migrate
 
-# 7. Seed the database with initial data
+# 8. Seed the database with initial data
 php artisan db:seed
 
-# 8. Start the Laravel development server
+# 9. Start the Laravel development server
 php artisan serve
 
 php artisan test
